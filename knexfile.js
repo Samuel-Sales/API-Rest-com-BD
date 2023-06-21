@@ -6,16 +6,14 @@
 module.exports = {
 
   development: {
-    client: 'pg',
+    client: 'mysql',
     connection: {
       host: 'teste.czckyqtvcinn.us-east-2.rds.amazonaws.com',
       port: '5432',
       user: 'postgres',
       password: ')9dfs318X',
       database: 'bd_teste'
-      //database: "knex_test", //teste
-      //user: "postgres",
-      //password: "1234"  // )9dfs318X
+      
     },
     migrations: {
       tableName: 'knex_migrations',
