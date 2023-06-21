@@ -1,0 +1,20 @@
+{
+  "name": "api-rest-com-bd-2",
+  "version": "1.0.0",
+  "description": "API Rest com banco de dados no postgre",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Samuel Sales",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "pg": "^8.11.0"
+  }
+}
